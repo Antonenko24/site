@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'Open Sans 700';
+  src: url('../fonts/OpenSans-Bold'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSans-Bold') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/OpenSans-Bold') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/OpenSans-Bold') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSans-Bold')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/OpenSans-Bold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'OpenSans-400';
+  src: url('../fonts/OpenSans-Regular'); /* IE9 Compat Modes */
+  src: url('../fonts/OpenSans-Regular') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/OpenSans-Regular') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/OpenSans-Regular') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/OpenSans-Regular')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/OpenSans-Regular') format('svg'); /* Legacy iOS */
+}
+
+
+/*-------Спецификация-------*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	
+	margin: 0 auto;
+
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 14px;
+	margin-bottom: 1.7em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: black;
+	
+	line-height: 1.0em;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 22px;
+}
+
+
+h4 {
+	font-size: 16px;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: between;
+}
+
+.align-items-centre {
+	align-items: center;
+}
+
+/*-------first-------*/
+
+.header {
+	background: #32343f url(../img/picure.jpg);
+	height: 747px;
+	margin-bottom: 40px;
+	
+}	
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: #626fe4;
+	margin-top: 32px;
+	text-transform: uppercase;
+}
+
+.menu {
+	color: #fff;
+	margin-top: 42px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+
+.menu:after {
+	border: 1px solid #fff;
+	width: 1212px;
+}
+
+.world__tittle {
+	color: #fff;
+	font-weight: 700;
+	margin-top: 223px;
+}
+
+.world__text {
+	color: #fff;
+	font-size: 17px;
+	font-weight:400;
+	margin-top: 33px;
+}
+
+.world__btn  {
+	border: 1px solid #;
+	background: #e84545;
+	height: 42px;
+	width: 203px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	}
+
+
+/*-------second-------*/
+
+.pensil__img {
+	margin: 77px 0 29px 160px;
+}
+
+.pensil__tittle {
+	font-family: 'Open Sans 700';
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0 0 25px 123px;
+}
+
+.pensil__text {
+	font-size: 14px;
+	font-family: 'Open Sans 400';
+	font-weight: 400;
+	color: #6c7279;
+	margin-left: 48px;
+}
+
+/*-------third-------*/
+
+.pics {
+	background: url(../img/book.jpg);
+	height: 211px;
+	margin-bottom: 25px;
+	margin-top: 100px;
+}
+
+.part {
+	height: 583px;
+	
+}
+
+.just {
+	background: url(../img/just.jpg);
+	height: 211px;
+	margin-top: 100px;
+}
+
+.red {
+	background: url(../img/red.jpg);
+	height: 211px;
+	margin-top: 100px;
+}
+
+.what {
+	background: url(../img/what.jpg);
+	height: 211px;
+}
+
+.gun {
+	background: url(../img/gun.jpg);
+	height: 211px;
+}
+
+.numbers {
+	background: url(../img/numbers.jpg);
+	height: 211px;
+}
+
+.table {
+	background: url(../img/table.jpg);
+	height: 211px;
+	margin-bottom: 129px;
+}
+
+/*-------fourth-------*/
+
+.photo {
+	background: #f1f2fd;
+	height: 819px;
+}
+
+.blond {
+	background: url(../img/blond.jpg);
+	height: 270px;
+	margin-top: 128px;
+	margin-bottom: 30px;
+}
+
+.man {
+	background: url(../img/man.jpg);
+	height: 270px;
+	margin-top: 128px;
+	margin-bottom: 30px;
+}
+
+.lady {
+	background: url(../img/lady.jpg);
+	height: 270px;
+	margin-top: 128px;
+	margin-bottom: 30px;
+}
+
+.blond {
+	background: url(../img/blond.jpg);
+	height: 270px;
+	margin-bottom: 30px;
+}
+
+.biog_tittle {
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 22px;
+	
+	
+}
+
+.biog__sent {
+	color: #e96467;
+	
+}
+
+.biog__text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 15px;
+	
+
+}
+
+.fab  {
+	color: #c6cacc;
+
+}
+
+.square {
+	background: #fff;
+	height: 35px;
+	width: 35px;
+	margin: 30px 5px 0 0;
+	padding: 5px 0 0 10px;
+}
+
+.squares {
+	background: #fff;
+	height: 35px;
+	width: 35px;
+	margin: 30px 5px 0 0;
+	padding: 5px 0 0 10px;
+}
+
+.squareses {
+	background: #fff;
+	height: 35px;
+	width: 35px;
+	margin: 30px 5px 0 0;
+	padding: 5px 0 0 10px;
+}
+
+.interview {
+	height: 700px;
+	
+	
+
+}
+
+.interview__img {
+	height: 490px;
+	background: url(../img/armchair.jpg);
+	width: 100%;
+
+}
+
+.intro {
+	background: #53354a;
+
+}
+
+.intro__into {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 30px;
+		color: #fff;
+		height: 490px;
+		padding: 144px 0 0 70px;
+
+}
+
+
+/*-------fifth-------*/
+
+.ready__tittle {
+	 font-family: 'Open Sans 700';
+	 font-weight: 700;
+}
+
+.ready__text {
+	font-family: 'Open Sans 400';
+	font-weight: 400;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 21px 0 40px 0;
+
+}
+
+.ready__btn {
+	background: #e84545;
+	width: 280px;
+	height: 43px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-bottom: 97px;
+}
+
+/*-------sixth-------*/
+
+.footer {
+	background: #3a3e64;
+	height: 256px;
+}
+
+.its__tittle {
+	font-family: 'Open Sans 700';
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 87px 0 16px 50px;
+
+}
+
+.its__text {
+	color: #a0a2b0;
+}
+
+.its__text span {
+	color: #fff;
+}
+
+/*-------Media Queries-------*/
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) 
+  
+
+/* 767-992px */
+@media screen and (max-width: 992px) 
+  
+
+
+
+/* 576-768px */
+@media screen and (max-width: 768px) 
+  
+/* 320-576px */
+@media screen and (max-width: 576px) 
